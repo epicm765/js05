@@ -1,0 +1,129 @@
+
+body {
+    padding:0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color:rgb(155, 154, 154);
+}
+
+a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+
+nav {
+    border-top:1px solid gray;
+    border-bottom:1px hidden gray;
+    box-shadow:10px 5px 5px 5px rgb(201, 201, 201);
+    padding:5px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.title {
+    display:flex;
+    padding-left:10px;
+    font-size:20px;
+    align-items:center;
+}
+
+.menu {
+    list-style:none;
+    display:flex;
+    padding-left:0;
+    justify-content:flex-end;
+    margin-left:auto;
+}
+
+.menu li {
+    padding:10px;
+}
+
+.login {
+    display:flex;
+    align-items:center;
+    padding-right:10px;
+}
+
+.login a {
+    border: 1px solid rgb(75, 180, 221);
+    padding:9px;
+    border-radius:7px;
+    font-weight:bold;
+    color:rgb(75, 180, 221);
+}
+
+.introduce h1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:42px;
+    font-size:45px;
+    font-weight:300;
+}
+
+.introduce p {
+    margin: 0 auto;
+    width:60%;
+    font-size:18px;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.price {
+    display:flex;
+    justify-content: center;
+}
+
+.price_item {
+    width:300px;
+    height:350px;
+    border:1px solid black;
+    margin:70px;
+    text-align:center;
+    border-radius:4px;
+}
+
+.price_item_title {
+    border-bottom:1px solid black;
+    font-size:1.8rem;
+    padding: 10px 0;
+    background-color:rgb(243, 243, 243);
+}
+
+.price_item_price {
+    padding:10px;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.price_item_detail {
+    padding:20px 65px 40px 65px;
+    font-weight:bold;
+
+}
+
+.price_item_button {
+    background-color:white;
+    color:rgb(24, 164, 219);
+    border:1px solid rgb(24,164,219);
+    border-radius:4px;
+    padding:15px 60px;
+}
+
+.price_item_button:hover {
+    cursor:pointer;
+    background-color:rgb(191, 220, 231);
+    text-decoration:underline;
+}
+
+@media all and (max-width:1250px) {
+    .supervisor {
+        width:1280px;
+    }
+}
